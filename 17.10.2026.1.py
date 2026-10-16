@@ -1,5 +1,5 @@
 def search(a, b):
     if b in a:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
