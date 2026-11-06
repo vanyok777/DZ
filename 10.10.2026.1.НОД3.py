@@ -1,8 +1,12 @@
-def main(a=int(input()), b=int(input())):
-    a, b = abs(a), abs(b)
+def main(a=int(input()), b=int(input()), c=int(input())):
+    a, b, c = abs(a), abs(b), abs(c)
+
     while b != 0:
         a, b = b, a % b
+
+    while c != 0:
+        a, c = c, a % c
+
     return a
 
-x=main()
-print(main(x, int(input())))
+print(main())
